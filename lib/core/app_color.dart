@@ -3,6 +3,7 @@ import 'package:task_project/core/hex_color.dart';
 
 class AppColor {
   static Color greyColor = Colors.grey.shade200;
+  static Color primary = HexColor('643FDC');
   static Color whiteColor = Colors.white;
   static Color blue = Colors.blueAccent;
   static Color blackColor = Colors.black;

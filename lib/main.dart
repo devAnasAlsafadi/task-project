@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:task_project/app.dart';
 import 'package:task_project/core/shared_preference_controller.dart';
 import 'package:task_project/firebase_options.dart';
 
@@ -10,5 +11,6 @@ void main() async  {
   );
   await SharedPrefController().initShared();
 
+  runApp(const MyApp());
 }
 

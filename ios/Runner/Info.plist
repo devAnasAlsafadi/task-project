@@ -9,9 +9,7 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <!-- TODO Replace this value: -->
-                <!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
-                <string>com.googleusercontent.apps.861823949799-vc35cprkp249096uujjn0vvnmcvjppkn</string>
+                <string>com.googleusercontent.apps.213723907379-50qdad69tknk2n9htdh9j31bropj4d9l</string>
             </array>
         </dict>
     </array>
@@ -54,6 +52,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to the photos library to select user profile picture</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs access to the camera to select user profile picture</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>

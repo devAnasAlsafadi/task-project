@@ -3,6 +3,7 @@ import 'package:flash/flash_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:task_project/core/app_color.dart';
 import 'package:task_project/core/enum.dart';
+import 'package:task_project/modules/auth/view/widgets/load_widget.dart';
 
 
 class Utils  {
@@ -67,19 +68,19 @@ class Utils  {
 
 
 
-  // // show loading dialog.
-  // static void showLoading({
-  //   String? title,
-  //   required BuildContext context
-  // }) {
-  //   showDialog(
-  //     context: context,
-  //     builder: (_) => LoadingWidget(
-  //       title: title,
-  //     ),
-  //     barrierDismissible: false,
-  //   );
-  // }
+  // show loading dialog.
+  static void showLoading({
+    String? title,
+    required BuildContext context
+  }) {
+    showDialog(
+      context: context,
+      builder: (_) => LoadingWidget(
+        title: title,
+      ),
+      barrierDismissible: false,
+    );
+  }
 
 
   // to int.
